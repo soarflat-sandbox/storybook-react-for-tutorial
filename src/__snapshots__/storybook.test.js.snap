@@ -1,5 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Example/Button Large 1`] = `
+<button
+  className="sc-AxjAm gdHLgQ"
+  size="large"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Primary 1`] = `
+<button
+  className="sc-AxjAm hOHgLZ"
+  size="medium"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Secondary 1`] = `
+<button
+  className="sc-AxjAm hOHgLZ"
+  size="medium"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Small 1`] = `
+<button
+  className="sc-AxjAm cGIcKL"
+  size="small"
+>
+  Button
+</button>
+`;
+
 exports[`Storyshots InboxScreen Default 1`] = `
 <div
   className="page lists-show"
