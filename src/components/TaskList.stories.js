@@ -1,10 +1,10 @@
 import React from 'react';
 
-import TaskList from './TaskList';
+import { PureTaskList } from './TaskList';
 import * as TaskStories from './Task.stories';
 
 export default {
-  component: TaskList,
+  component: PureTaskList,
   title: 'TaskList',
   // デコレーターを指定することで、ストーリーを任意のマークアップ（ラッパー）でラップできる。
   decorators: [
@@ -16,7 +16,7 @@ export default {
   ],
 };
 
-const Template = args => <TaskList {...args} />;
+const Template = args => <PureTaskList {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
